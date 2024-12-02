@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Desarrollo web con HTML, CSS y JavaScript',
+    componenteFormativo: 'Señales analógicas',
     descripcionCurso:
-      'El diseño de un sitio web corresponde a un componente fundamental en el proceso de creación de aplicaciones web; por ende, este componente está orientado a la comprensión de los conceptos más importantes que se deben tener en cuenta, así como también la forma en que se deben codificar para construir de manera propia un sitio web o de apoyarse en sistemas gestores de contenidos denominados CMS. ',
+      'Las señales analógicas, originadas en fenómenos electromagnéticos, son continuas y representan ondas variables. Sus características incluyen vulnerabilidad al ruido y alta resolución. Los medios de transmisión pueden ser guiados o no guiados. El espectro electromagnético abarca desde radio hasta rayos gamma, regulado en Colombia, con la multiplexación como método para combinar múltiples canales en un solo medio.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,11 +12,11 @@ export default {
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
