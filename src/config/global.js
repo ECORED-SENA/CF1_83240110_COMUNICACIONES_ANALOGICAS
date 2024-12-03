@@ -126,13 +126,6 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=YijfA07slss',
     },
-    {
-      tema: 'Medios de transmisión de las señales analógicas',
-      referencia:
-        'Electrónica FP. (2018). ¿Cuál es la diferencia entre electrónica DIGITAL y ANALÓGICA?',
-      tipo: 'Video',
-      link: 'https://chatgpt.com/c/67341ea0-b3d0-400d-8bfa-99c687e3bedd',
-    },
   ],
   glosario: [
     {
@@ -188,8 +181,27 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'ARQHYS. (2012). <i>Señales analógicas</i>. Revista ARQHYS.com.',
+    },
+    {
+      referencia:
+        'CNABF. (2014). <i>Cuadro nacional de atribución de bandas de frecuencias</i>.',
+    },
+    {
+      referencia:
+        'Electrónica Unicrom. (2016). <i>Acoplar impedancia para máxima transferencia de potencia</i>.',
+    },
+    {
+      referencia: 'MinTIC. (2017). <i>Espectro radioeléctrico</i>.',
+    },
+    {
+      referencia:
+        'Portal Vasco. (2007). <i>Tipos de bandas de frecuencias</i>.',
+    },
+    {
+      referencia:
+        'Universidad Central. (2011). <i>Ruido eléctrico e interferencias</i>.',
     },
   ],
   creditos: [
