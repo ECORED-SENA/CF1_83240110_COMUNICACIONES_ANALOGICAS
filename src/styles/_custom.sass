@@ -214,3 +214,84 @@
   &:hover
     background-color: #FCF3CC
 // TEMA 1 Y 2
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-color
+  &-1
+    background-color: #E0F7FB !important
+  &-2
+    background-color: #FCF3CC !important
+  &-3
+    background-color: #F7E081 !important
+  &-4
+    background-color: #EEFAFC !important
+  &-5
+    background-color: #FCF3CC !important
+  &-white
+    background-color: white !important
+  &-sintesis
+    background-color: #F6F6F6
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg/bg1.png") !important
+    background-position: top
+  &-slider
+    background-image: url("../assets/curso/bg/bg-slider.png") !important
+    background-position: center
+
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+ background-color: $color-acento-botones
+ background-image: url(../assets/curso/bullets/arrow-white.svg)
+ color: white
+ opacity: 1
+
+.slyder-a__bullets__item
+ background-color: rgba($color-acento-contenido, 0.35)
+ border-color: rgba($color-acento-contenido, 0.35)
+
+.slyder-a__bullets__item--active
+ background-color: $color-acento-contenido !important
+
+
+// Slider Bullet Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+  .slyder-a__bullets__item
+    margin: 0 3px
+
+
+// Variables
+$custom-card-border-radius: 10px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FEEEC9
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 190px
+
+.custom-image-card
+ border-radius: $custom-card-border-radius
+ overflow: hidden
+ box-shadow: $custom-card-shadow
+ height: 100%
+ background-color: $custom-card-text-bg
+ transition: transform 0.3s ease /* Duración y suavidad del efecto */
+ cursor: pointer
+ &:hover
+   transform: scale(1.05)
+ &__image
+   height: $custom-card-img-height
+   object-fit: cover
+
+
+.tarjeta--boton.bg-color-3:hover
+  background-color: #C2EEF6 !important

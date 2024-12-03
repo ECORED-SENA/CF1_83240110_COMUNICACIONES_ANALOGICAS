@@ -36,97 +36,26 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'HTML 5',
+        titulo: 'Señales analógicas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Etiquetas <em>(tags)</em>',
-            hash: 't_1_1',
-          },
-          {
-            numero: '1.2',
-            titulo: 'Textos',
-            hash: 't_1_2',
-          },
-          {
-            numero: '1.3',
-            titulo: 'Imágenes',
-            hash: 't_1_3',
-          },
-          {
-            numero: '1.4',
-            titulo: 'Hiperenlaces',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 't_1_5',
-          },
-          {
-            numero: '1.6',
-            titulo: 'Formularios',
-            hash: 't_1_6',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Hojas de estilo',
+        titulo: 'El ruido',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '2.1',
-            titulo: 'Introducción CSS3',
-            hash: 't_2_1',
-          },
-          {
-            numero: '2.2',
-            titulo: 'Estructura',
-            hash: 't_2_2',
-          },
-          {
-            numero: '2.3',
-            titulo: 'Formulario CSS3',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'JavaScript',
+        titulo: 'Espectro electromagnético',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '3.1',
-            titulo: 'Versiones',
-            hash: 't_3_1',
-          },
-          {
-            numero: '3.2',
-            titulo: 'Sintaxis',
-            hash: 't_3_2',
-          },
-          {
-            numero: '3.3',
-            titulo: 'Tipos de datos',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
-            titulo: 'Estructuras de control',
-            hash: 't_3_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Gestores de contenido CMS',
+        titulo: 'Medios de transmisión de las señales analógicas',
         desarrolloContenidos: true,
       },
     ],

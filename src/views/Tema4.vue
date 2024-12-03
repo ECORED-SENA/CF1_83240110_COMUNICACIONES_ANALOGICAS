@@ -1,265 +1,132 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Gestores de contenido CMS
+      h1 Medios de transmisión de las señales analógicas
+
+
+    .bg-color-5.p-4.p-md-5.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-auto
+          img(src='@/assets/curso/tema4/1.svg', alt='', style="max-width: 205px").mx-auto.px-4
+
+        .col-lg
+          .bg-color-white.p-4.p-md-5
+            p.mb-0 El medio de transmisión es el entorno físico (agua, aire o vacío) por el cual se desplaza la información entre sistemas de comunicación que procesan señales analógicas. Los medios de transmisión pueden clasificarse en dos tipos: guiados y no guiados.
+
+
+    .titulo-tres: h3 Medios no guiados
+
+    p(data-aos="fade-up").mb-5 Los medios no guiados son utilizados para señales que no requieren un material físico para propagarse y se desplazan a través del aire. La transmisión se realiza mediante antenas, que pueden ser direccionales (en un solo sentido) u omnidireccionales (dispersando la señal en 360° y a grandes distancias). Estos medios son sensibles a interferencias causadas por cambios climáticos.
+
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-9
+        LineaTiempoD.color-acento-contenido
+          .row(numero="1" titulo="Cable coaxial")
+            .col-lg
+              p.mb-0 Compuesto por un hilo de cobre central, recubierto por una malla y elementos conductores separados por aislantes plásticos. Requiere adaptadores con conectores apropiados en los extremos y es común en redes de televisión, con una velocidad de transmisión de hasta 10 Mbps (106 bits por segundo).
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema4/3.png", alt="")
+          .row(numero="2" titulo="Fibra óptica")
+            .col-lg
+              p.mb-0 La información se transmite en forma de pulsos de luz. Un extremo tiene un emisor de luz (LED o láser) y el otro un detector de luz. Alcanza velocidades de varios Gbps (109 bits por segundo), aunque su instalación y mantenimiento son costosos.
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema4/4.png", alt="")
+          .row(numero="3" titulo="Par trenzado")
+            .col-lg
+              p.mb-0 Similar al cable telefónico, tiene 8 hilos y conectores RJ 45. Clasificado en categorías según el número de trenzas por unidad de longitud, donde más trenzas implican mayor velocidad de transferencia. Dos tipos principales: UTP (sin apantallamiento) y STP (con apantallamiento).
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema4/5.png", alt="")
+      .col-sm-12.col-lg-3.d-none.d-lg-block
+        img(src="@/assets/curso/tema4/2.png", alt="")
+
+
+    .titulo-tres: h3 Adaptación de impedancias para alta frecuencia y alta potencia
+
+    p(data-aos="fade-up").mb-5 La adaptación de impedancias busca igualar la resistencia de salida de la fuente y la resistencia de entrada de la carga, permitiendo una transferencia óptima de potencia.
+
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.mb-lg-0.mb-3(data-aos="fade-right")
-        p.mb-0  Los gestores de contenidos, conocidos como #[em #[span.color-morado CMS (Content Management System)]], surgieron para simplificar la labor de los administradores de sitios web, comúnmente llamados WebMasters. Su desarrollo ha avanzado significativamente, posicionándolos como herramientas clave para publicar información y contenido propio en la web. Esto permite a los usuarios gestionar sus sitios sin la necesidad de externalizar el servicio o contratar a un profesional, evitando así costos innecesarios.
-        h5.mb-5 A continuación, se presenta una figura que ilustra la integración general de un CMS en un sitio web: 
-      .col-lg-3.col-7: img(src='@/assets/curso/temas/44.svg', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-8.col-7
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 7.
-          span Integracion general del CMS
-        img.d-none.d-lg-block(src='@/assets/curso/temas/45.svg', alt='El software CMS, se integra entre la página web y un servidor con sistema operativo.')
-        img.d-block.d-lg-none(src='@/assets/curso/temas/46.svg', alt='El software CMS, se integra entre la página web y un servidor con sistema operativo.')
-    p.mb-5(data-aos='fade-right') Un gestvor de contenidos o CMS, es un #[em software] web diseñado para facilitar la creación, gestión y publicación de contenido en páginas web, sin requerir conocimientos avanzados en desarrollo de software o programación informática. Estas herramientas proporcionan una plataforma de administración virtual que permite a los usuarios crear, editar y publicar contenido web de manera eficiente. 
-    .titulo-tres.mb-4: h3.mb-0 Funciones 
-    h5.mb-4 A continuación, se describen las principales funciones que debe cumplir un CMS.
-    .f-4-1.p-5.mb-5
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/47.svg' alt='AvatarTop')
-          h4: span.color-azul Independencia entre código y contenido 
-          p Permite separar la gestión de la estructura y funcionalidad de la web de la administración de contenidos, facilitando el trabajo de perfiles distintos: desarrolladores y creadores de contenido. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/48.svg' alt='AvatarTop')
-          h4: span.color-azul Plantillas en diseño web 
-          p Facilitan modificar la apariencia del sitio web usando plantillas para colores, tipos de letra, imágenes, etc. Hay plantillas gratuitas y profesionales disponibles. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/49.svg' alt='AvatarTop')
-          h4: span.color-azul Extensión de capacidades 
-          p Los CMS permiten añadir nuevas funcionalidades mediante plugins, cubriendo así necesidades específicas del sitio web. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/50.svg' alt='AvatarTop')
-          h4: span.color-azul Enfocados al SEO 
-          p Facilitan la implementación de estrategias de SEO para mejorar el posicionamiento en motores de búsqueda. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/51.svg' alt='AvatarTop')
-          h4: span.color-azul Gestión de enlaces 
-          p Permiten una gestión eficiente de los permalinks asociados a cada contenido, importante para técnicas SEO. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/52.svg' alt='AvatarTop')
-          h4: span.color-azul Flujos de trabajo 
-          p Posibilitan definir responsabilidades dentro del equipo de administración, con flujos de aprobación para la publicación de contenidos. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/53.svg' alt='AvatarTop')
-          h4: span.color-azul Comentarios 
-          p Incluyen sistemas de gestión de comentarios que permiten validar autores y administrar los comentarios recibidos. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/54.svg' alt='AvatarTop')
-          h4: span.color-azul Control de versiones 
-          p Permiten versionar el contenido, facilitando la recuperación de versiones anteriores y la publicación de versiones específicas. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/55.svg' alt='AvatarTop')
-          h4: span.color-azul Múltiples idiomas 
-          p Ofrecen gestión de contenido en varios idiomas, adaptándose a las preferencias del visitante. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/56.svg' alt='AvatarTop')
-          h4: span.color-azul Múltiples sitios 
-          p Permiten gestionar varios sitios o secciones desde una plataforma centralizada, optimizando el mantenimiento. 
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/57.svg' alt='AvatarTop')
-          h4: span.color-azul Seguridad 
-          p Enfocan en perfilar el contenido según el usuario y proveen protección general al sitio web. 
-    .titulo-tres.mb-4: h3.mb-0 Características 
-    h4.mb-4 A continuación, se presentan  las características de los gestores de contenido CMS: 
-    .row.justify-content-center.mb-5
-      .col-lg-9.mb-lg-0.mb-3
-        .tarjeta.p-4(style="background-color:#f2e5fd ")
-          ul.lista-ul--color
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | El frontend, corresponde a la parte visible del CMS para los usuarios que acuden como invitados o usuarios registrados. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Conformación modular para la configuración y personalización de los sitios web. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Administración de usuarios, roles, perfiles y permisos de acceso. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Componentes para la creación, edición, publicación de contenidos. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Plantillas para distribuir y mantener el diseño del sitio web. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Posibilidad de extensiones que complementan las funcionalidades en el gestor de contenidos. 
-            li
-              i.fas.fa-circle.fa-xs(style="color:#8722E2 ")
-              | Características de manejo de internacionalización en varios idiomas.
-      .col-lg-3.col-7: img(src='@/assets/curso/temas/58.svg', alt='') 
-    .titulo-tres.mb-4: h3.mb-0 Clasificación CMS 
-    p.mb-5(data-aos='fade-right') Se clasifican normalmente teniendo en cuenta los siguientes tres aspectos, de acuerdo al lenguaje de programación, a la distribución de la licencia y a las funcionalidades que presenta: 
-      br
-      br
-      | #[b Teniendo en cuenta el lenguaje de programación:] 
-    .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
-        .tarjeta.h-100(style="background-color: #D5FFFA ").p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/59.png', alt='Texto que describa la imagen')
-          p jAPS, Liferay, DSpace, Fedora, Nuxeo EP, Magnolia, Hippo CMS, Calenco, Polopoly, IBM Lotus Web Content Management, Day Communiqué WCM, Jarimba, Vignette, etc. 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
-        .tarjeta.h-100(style="background-color: #D5FFFA ").p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/60.png', alt='Texto que describa la imagen')
-          p Drupal, CMS Made Simple, Joomla!, Mambo, PHP-Nuke, TikiWiki, TYPO3, aWordPress, Xoops, Zikula, Jadu, ExpressionEngine, Accrisoft Freedom, CMS 10, Dim Works CMS, Content-SORT, Prodigia Easy Site Manager, PipePS, SiteAd CMS, etc. 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="fade-right")
-        .tarjeta.h-100(style="background-color: #D5FFFA ").p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/61.png', alt='Texto que describa la imagen')
-          p DotNetNuke Community Edition, Umbraco, mojoPortal, Kentico CMS, SharePoint Server, Telligent Community, Ektron CMS400.NET, Quantum Art QP7, webControl CMS, etc.
-    h4.mb-4 Teniendo como base la distribución de la licencia: 
-    p.mb-5(data-aos='fade-right') #[span.color-morado De software libre (Open Source):] significa que esta herramienta no presenta costos de licencia y el código fuente es accesible para ser modificado por los desarrolladores.  El soporte técnico de este tipo de CMS es asumido por la entidad que lo implementa o por medio de comunidades online que comparten y mantienen su documentación.  
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-4
+      .col-lg-10
+        .bg-color-1(data-aos="fade-right")
           .row.justify-content-center.align-items-center
-            .col-lg-5.col-7: img(src='@/assets/curso/temas/62.png', alt='')
-            .col-lg-7
-              p.mb-0.text-white En esta categoría, algunos de los gestores más reconocidos son WordPress, Drupal, Joomla, Plone, TYPO3, OpenCMS, PHPNuke o Moodle.
-    p.mb-5(data-aos='fade-right') #[span.color-morado De código privado:] presentan costos de licencia y servicio, el código fuente es propietario por tanto sólo puede ser accedido y modificado por la compañía o personas que lo desarrollaron.  En cuanto al soporte técnico es parte de la oportunidad de negocio y normalmente es de excelente calidad, así como una gran cantidad de información documental.  
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .tarjeta.color-primario.p-4
-          .row.justify-content-center.align-items-center
-            .col-lg-5.col-7: img(src='@/assets/curso/temas/63.svg', alt='')
-            .col-lg-7
-              p.mb-0.text-white Los gestores más destacados son CMS10, Eximius2 CMS, Contendo CMS, Jarimba, CMS HYDRAportal, OnBase, IWEB, Oracle Portal, PipePS, Paloo, Smartone CMS, Vbulletin, XCM – Xeridia Content Manager, ZWeb Publisher CMS.
-    .row.justify-content-center.mb-3
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/64.svg', alt='Texto que describa la imagen')
-          h5 Plataformas en general 
-          p Drupal, Gekko, E107, Joomla, Mambo, PHP-Nuke, TYPO3, TYPOLight, XOOPS, ZWeb Publisher CMS, ADSM Portal 2.0, 360 Web Manager Software, GTLive 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/65.svg', alt='Texto que describa la imagen')
-          h5 Sitios de educación 
-          p ATutor, Claroline, Dokeos, eCollege, FrogTeacher, Moodle, Sakai Project, Scholar360, Synergeia, Teleto 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/66.svg', alt='Texto que describa la imagen')
-          h5 Blogs 
-          p WordPress, bBlog, DotClear, Lifetype, Plone, Nucleus CMS, Blogger, Textpattern 
-    .row.justify-content-center.mb-3
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/67.svg', alt='Texto que describa la imagen')
-          h5 Galerías 
-          p Gallery, Pixelpost, Expression Engine 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/68.svg', alt='Texto que describa la imagen')
-          h5 Wikis 
-          p MediaWiki, TikiWiki, Twiki 
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/69.svg', alt='Texto que describa la imagen')
-          h5 Comercio electrónico  
+            .col-lg-auto
+              img(src="@/assets/curso/tema4/6.png", style="max-width: 400px", alt="").m-auto.mt-lg-0.mt-4
+            .col-lg
+              .p-4
+                figure.mb-4
+                  img(src="@/assets/curso/tema4/7.svg", alt="", style="max-width: 63px").ml-auto
 
-          p osCommerce, Magento, Zen Cart, Drupal e-Commerce, CubeCart, OpenCart, VirtueMart 
-    .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in")
-        .tarjeta.h-100(style="background-color: #D6E1FD ").p-4.h-100
-          .row.mb-3
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/70.svg', alt='Texto que describa la imagen')
-          h5 Groupware  
-          p Webcollab, eGroupWare, Group-Office 
-    h4.mb-4 Como se indicó previamente, recordamos que la clasificación de los CMS se presenta de la siguiente forma:
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 8.
-      span Esquema de clasificación de los CMS 
-    img.d-none.d-lg-block.mb-5(src='@/assets/curso/temas/71.svg', alt='Con base en el lenguaje de programación, con base en la licencia y de acuerdo con su funcionalidad.')
-    img.d-block.d-lg-none.mb-5(src='@/assets/curso/temas/72.svg', alt='Con base en el lenguaje de programación, con base en la licencia y de acuerdo con su funcionalidad.')
-    .titulo-tres.mb-4: h3.mb-0 Tipos CMS 
-    p.mb-5(data-aos='fade-right') Los tipos de gestores de contenidos varían según los tipos de páginas web que se deseen desarrollar o crear. Para satisfacer estas necesidades, existen gestores de contenidos altamente especializados, equipados con herramientas y características diseñadas para cumplir con requerimientos específicos. A continuación, se presentan algunos de los gestores de contenidos disponibles para su uso en diferentes contextos: 
-    .row.justify-content-center.mb-3.g-1
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/73.svg', alt='')
-          h5.mb-0 Blogs
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/74.svg', alt='')
-          h5.mb-0 Páginas corporativas
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/75.svg', alt='')
-          h5.mb-0 Tiendas online o ecommerce
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/76.svg', alt='')
-          h5.mb-0 Sitios de #[em e-learning]
-    .row.justify-content-center.mb-5
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/77.svg', alt='')
-          h5.mb-0 Foros
-      .col-lg-2
-        .tarjeta.tarjeta-iconos.p-2
-          img(src='@/assets/curso/temas/78.svg', alt='')
-          h5.mb-0 #[em Wikis]
 
-      
+                p.mb-0 #[strong Se debe adaptar la impedancia de salida de una fuente de señal análoga con la impedancia de entrada de la carga para maximizar la transferencia de potencia]
 
-    
 
+    p(data-aos="fade-up").mb-5 Para evitar reflexiones en la carga, las impedancias deben ser completamente resistivas, lo cual facilita la emisión de señales con gran ancho de banda.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Tabla 2.
+          span Clasificación de las ondas analógicas por frecuencia
+
+
+        .tabla-a.color-acento-contenido
+          table
+            caption Referencia Tabla - Norma APA
+            thead
+              tr
+                th Sigla
+                th Rango de frecuencia
+                th Denominación
+                th Empleo
+            tbody
+              tr
+                td #[strong VLF]
+                td #[strong 10 kHz a 30 kHz]
+                td Muy baja frecuencia
+                td Radio de gran alcance
+              tr
+                td #[strong LF]
+                td #[strong 30 kHz a 300 kHz]
+                td Baja frecuencia
+                td Radio, navegación
+              tr
+                td #[strong MF]
+                td #[strong 300 kHz a 3 MHz]
+                td Frecuencia media
+                td Radio de onda media
+              tr
+                td #[strong HF]
+                td #[strong 3 MHz a 30 MHz]
+                td Alta frecuencia
+                td Radio de onda corta
+              tr
+                td #[strong VHF]
+                td #[strong 30 MHz a 300 MHz]
+                td Muy alta frecuencia
+                td TV, radio
+              tr
+                td #[strong UHF]
+                td #[strong 300 MHz a 3 GHz]
+                td Ultra alta frecuencia
+                td TV, teléfono móvil
+              tr
+                td #[strong SHF]
+                td #[strong 3 GHz a 30 GHz]
+                td Super alta frecuencia
+                td Radar
+              tr
+                td #[strong EHF]
+                td #[strong 30 GHz a 300 GHz]
+                td Extremadamente alta frecuencia
+                td Radar
+
+    p(data-aos="fade-up") El uso de altas frecuencias (bandas Ku y Ka) permite transmitir mayor cantidad de información por segundo, aunque requiere mayor potencia y equipos más robustos para evitar bloqueos y mejorar la recepción.
 </template>
 
 <script>
