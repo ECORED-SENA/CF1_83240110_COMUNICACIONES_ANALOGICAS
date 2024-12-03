@@ -106,11 +106,32 @@ export default {
   },
   complementario: [
     {
-      tema: 'HTML 5',
+      tema: 'Señales analógicas',
       referencia:
-        'HTMLed.it. (2021). Editor HTML gratuito en línea, limpiador y convertidor.',
-      tipo: 'Página web',
-      link: 'https://htmled.it/or/',
+        'Educación Activa. (2020). Señales Analógicas y Señales Digitales (Educación Tecnológica - NES 2do año)',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=hQ0BJi7cba0',
+    },
+    {
+      tema: 'El ruido',
+      referencia:
+        'BBC (2017). Qué es el ruido blanco y cuán efectivo puede ser para ayudarte a dormir',
+      tipo: 'Documento',
+      link: 'https://www.bbc.com/mundo/noticias-40637892',
+    },
+    {
+      tema: 'Espectro electromagnético',
+      referencia:
+        'KhanAcademyEspañol (2016). Ondas electromagnéticas y espectro electromagnético | Física',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=YijfA07slss',
+    },
+    {
+      tema: 'Medios de transmisión de las señales analógicas',
+      referencia:
+        'Electrónica FP. (2018). ¿Cuál es la diferencia entre electrónica DIGITAL y ANALÓGICA?',
+      tipo: 'Video',
+      link: 'https://chatgpt.com/c/67341ea0-b3d0-400d-8bfa-99c687e3bedd',
     },
   ],
   glosario: [
