@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Fabricación del acero',
+      tema:
+        'Exploración de frecuencias y transmisión en el espectro electromagnético ',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar el proceso de fabricación del acero, incluyendo las materias primas, el funcionamiento de los diferentes hornos, los subproductos generados, y las técnicas utilizadas para la producción y reciclaje de acero.',
+        '<b> Objetivo:</b> Aplicar los conceptos de asignación de frecuencias y medios de transmisión en el espectro electromagnético, identificando sus usos específicos en radiocomunicaciones, telefonía móvil, televisión y servicios futuros. ',
       barajarPreguntas: true,
       preguntas: [
         {
