@@ -26,29 +26,29 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la principal función de la piedra caliza en el alto horno?',
+          texto: '¿Qué caracteriza principalmente a una señal analógica?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Capturar impurezas del hierro fundido.',
+              texto: 'Representación continua de una onda con valores fijos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Actuar como combustible.',
+              texto: 'Representación digital en formato binario.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Servir de fundente para reducir impurezas.',
+              texto:
+                'Representación continua de una onda con valores variables.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Producir gases de alto horno.',
+              texto: 'Emisión de valores únicamente altos y bajos.',
               esCorrecta: false,
             },
           ],
@@ -57,28 +57,29 @@ export default {
         },
         {
           id: 2,
-          texto: 'El arrabio es:',
+          texto:
+            '¿Qué tipo de ruido se distribuye uniformemente en todo el rango de frecuencias?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Un subproducto del horno eléctrico.',
+              texto: 'Ruido impulsivo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Un producto líquido de la primera fusión del hierro.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Un tipo de caliza.',
+              texto: 'Ruido de fondo.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Ruido blanco.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Un tipo de acero especial.',
+              texto: 'Ruido intermitente.',
               esCorrecta: false,
             },
           ],
@@ -88,29 +89,28 @@ export default {
         {
           id: 3,
           texto:
-            '¿Cuál de las siguientes opciones describe mejor el proceso de colada continua?',
+            '¿Cuál de las siguientes ondas se utiliza en telecomunicaciones y tiene frecuencias desde unos pocos hercios hasta mil millones de hercios?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Un proceso de reciclaje de chatarra.',
+              texto: 'Rayos Gamma.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La extracción del mineral de hierro.',
+              texto: 'Luz visible.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'El proceso de solidificación del acero líquido para formar semiproductos.',
+              texto: 'Ondas de radio.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'La fusión de metales a alta temperatura.',
+              texto: 'Microondas.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +120,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Cuál de estos elementos no es una materia prima del alto horno?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Qué medio de transmisión permite la propagación de señales sin necesidad de un soporte físico?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Coque.',
+              texto: 'Cable coaxial.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cobre.',
+              texto: 'Medios no guiados.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Mineral de hierro.',
+              texto: 'Par trenzado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Caliza.',
+              texto: 'Fibra óptica.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +150,29 @@ export default {
         },
         {
           id: 5,
-          texto: 'El horno convertidor se utiliza para:',
+          texto:
+            '¿Qué parámetro se refiere a la distancia entre una cresta y un valle en una onda?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Controlar el porcentaje de carbono en el acero.',
-              esCorrecta: true,
+              texto: 'Amplitud.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Fundir la caliza.',
+              texto: 'Frecuencia.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Extraer mineral de hierro de las minas.',
-              esCorrecta: false,
+              texto: 'Longitud de onda.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Realizar el proceso de laminación.',
+              texto: 'Período.',
               esCorrecta: false,
             },
           ],
@@ -180,28 +181,29 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Cuál de estos elementos es un subproducto del alto horno?',
+          texto:
+            '¿Qué servicio utiliza principalmente el rango de 29.7 MHz a 44 MHz?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Gases del alto horno.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Barras de acero.',
+              texto: 'Radiodifusión de televisión.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Telefonía móvil y fija.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Perfiles estructurales.',
+              texto: 'Radar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Alambres para trefilería.',
+              texto: 'Radio de onda corta.',
               esCorrecta: false,
             },
           ],
@@ -211,28 +213,28 @@ export default {
         {
           id: 7,
           texto:
-            'La función principal del horno eléctrico en la siderurgia moderna es:',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál es una característica específica de los medios guiados?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Fabricar acero a partir de chatarra reciclada.',
-              esCorrecta: true,
+              texto: 'No requieren material físico para propagarse.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Producir caliza.',
+              texto: 'No experimentan pérdidas de información.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Extraer mineral de hierro.',
-              esCorrecta: false,
+              texto: 'Usan soporte físico para transmisión de señales.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Crear fundentes para el proceso.',
+              texto: 'Transmiten señales exclusivamente digitales.',
               esCorrecta: false,
             },
           ],
@@ -242,28 +244,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes afirmaciones es correcta sobre la escoria?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Qué tipo de multiplexación asigna el ancho de banda en intervalos de tiempo específicos?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Es el producto principal del horno convertidor.',
+              texto: 'División de frecuencia (FDM).',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Se utiliza para la fabricación de cemento y abonos.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Es un subproducto de la laminación.',
+              texto: 'División de longitud de onda (WDM).',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'División de tiempo (TDM).',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Se utiliza para fabricar acero inoxidable.',
+              texto: 'División en código (CDM).',
               esCorrecta: false,
             },
           ],
@@ -272,18 +274,28 @@ export default {
         },
         {
           id: 9,
-          texto: 'El acero es infinitamente reciclable.',
+          texto: '¿Cuál es el rango de frecuencia de los rayos X?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero.',
-              esCorrecta: true,
+              texto: 'De 30 GHz a 300 GHz.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso.',
+              texto: 'De 1.1×10^17 Hz a 1.1×10^19 Hz.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'De 1×10^14 Hz a 8×10^14 Hz.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'De 54 MHz a 72 MHz.',
               esCorrecta: false,
             },
           ],
@@ -292,19 +304,30 @@ export default {
         },
         {
           id: 10,
-          texto: 'El gas de alto horno contiene un 60% de oxígeno.',
+          texto:
+            '¿Qué frecuencia se asigna a la planeación de servicios futuros?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero.',
+              texto: '9 kHz a 40 GHz.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso.',
+              texto: '40 GHz a 1000 GHz.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '3 MHz a 30 MHz.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '300 MHz a 3 GHz.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -313,28 +336,28 @@ export default {
         {
           id: 11,
           texto:
-            '¿Cuál es el objetivo principal del proceso de laminación en caliente?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Cuál de las siguientes es una aplicación de las ondas de muy alta frecuencia (VHF)?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Producir gases del alto horno.',
+              texto: 'Radar.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Fundir mineral de hierro.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Transformar palanquillas en productos de acero largo.',
+              texto: 'TV y radio.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Fibra óptica.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Extraer impurezas del acero.',
+              texto: 'Telefonía fija.',
               esCorrecta: false,
             },
           ],
@@ -343,29 +366,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            '¿Qué elemento se utiliza como fuente de carbono en el alto horno?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué tipo de onda es perceptible por el ojo humano?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Caliza.',
+              texto: 'Rayos gamma.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Coque.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Escoria.',
+              texto: 'Microondas.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Luz visible.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Mineral de hierro.',
+              texto: 'Rayos X.',
               esCorrecta: false,
             },
           ],
@@ -374,28 +396,28 @@ export default {
         },
         {
           id: 13,
-          texto: 'El horno cuchara se utiliza principalmente para:',
+          texto: '¿Cuál es la función de los amplificadores en medios guiados?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Producir acero inoxidable.',
+              texto: 'Reducir la frecuencia de la señal.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Fundir la caliza.',
+              texto: 'Eliminar completamente el ruido.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Homogeneizar la carga y eliminar la escoria.',
+              texto: 'Regenerar la señal para evitar pérdidas.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Extraer el arrabio del alto horno.',
+              texto: 'Modificar la velocidad de transmisión.',
               esCorrecta: false,
             },
           ],
@@ -404,28 +426,29 @@ export default {
         },
         {
           id: 14,
-          texto: 'La magnetita y la hematita son ejemplos de:',
+          texto:
+            '¿En qué frecuencia se encuentra la radiodifusión de la televisión análoga en Colombia?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Hidróxidos de hierro.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Óxidos de hierro.',
+              texto: '54 MHz -- 72 MHz, 76 MHz -- 108 MHz, 174 MHz -- 216 MHz.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: '9 kHz hasta 40 GHz.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Sulfuros de hierro.',
+              texto: '29.7 MHz hasta 44 MHz.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Carbonatos de hierro.',
+              texto: '40.0 GHz hasta 1000 GHz.',
               esCorrecta: false,
             },
           ],
@@ -434,28 +457,29 @@ export default {
         },
         {
           id: 15,
-          texto: '¿Cuál de los siguientes no es un subproducto del alto horno?',
+          texto:
+            '¿Qué medio de transmisión está compuesto por un hilo de cobre central recubierto por una malla?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Placas de acero.',
-              esCorrecta: true,
+              texto: 'Fibra óptica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Gases del alto horno.',
+              texto: 'Medios no guiados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Escoria.',
-              esCorrecta: false,
+              texto: 'Cable coaxial.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Arrabio.',
+              texto: 'Par trenzado.',
               esCorrecta: false,
             },
           ],

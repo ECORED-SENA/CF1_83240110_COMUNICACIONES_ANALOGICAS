@@ -90,7 +90,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228118_CF17_DU.pdf',
+        download: 'downloads/prueba.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -111,12 +111,6 @@ export default {
         'HTMLed.it. (2021). Editor HTML gratuito en línea, limpiador y convertidor.',
       tipo: 'Página web',
       link: 'https://htmled.it/or/',
-    },
-    {
-      tema: 'JavaScript',
-      referencia: 'Cubic Factory. (2021). Ejecutar JavaScript.',
-      tipo: 'Página web',
-      link: 'https://www.cubicfactory.com/jseditor/',
     },
   ],
   glosario: [
