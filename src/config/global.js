@@ -117,7 +117,7 @@ export default {
       referencia:
         'BBC (2017). Qué es el ruido blanco y cuán efectivo puede ser para ayudarte a dormir',
       tipo: 'Documento',
-      link: 'https://www.bbc.com/mundo/noticias-40637892',
+      link: 'https://www.bbc.com/mundo/noticias-40637592',
     },
     {
       tema: 'Espectro electromagnético',
@@ -224,7 +224,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Fabio Enrique Combariz',
+          nombre: 'Fabio Enrique Combariza',
           cargo: 'Experto Temático',
           centro:
             'Equipo de Adecuación Gráfica y Didáctica de Recursos Educativos - Regional Risaralda',
@@ -255,7 +255,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
+          nombre: 'Jaime Hernan Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

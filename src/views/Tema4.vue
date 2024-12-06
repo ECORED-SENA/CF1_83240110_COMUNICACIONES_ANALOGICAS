@@ -27,7 +27,7 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Cable coaxial")
             .col-lg
-              p.mb-0 Compuesto por un hilo de cobre central, recubierto por una malla y elementos conductores separados por aislantes plásticos. Requiere adaptadores con conectores apropiados en los extremos y es común en redes de televisión, con una velocidad de transmisión de hasta 10 Mbps (106 bits por segundo).
+              p.mb-0 Compuesto por un hilo de cobre central, recubierto por una malla y elementos conductores separados por aislantes plásticos. Requiere adaptadores con conectores apropiados en los extremos y es común en redes de televisión, con una velocidad de transmisión de hasta 10 Mbps (106 #[em bits] por segundo).
             .col-lg-auto
               figure
                 img(src="@/assets/curso/tema4/3.png", alt="")
@@ -77,7 +77,6 @@
 
         .tabla-a.color-acento-contenido
           table
-            caption Referencia Tabla - Norma APA
             thead
               tr
                 th Sigla
