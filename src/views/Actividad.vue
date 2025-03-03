@@ -9,7 +9,7 @@
   </template>
 
 <script>
-import Actividad from '@/components/actividad/Actividad.vue'
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
   components: {
@@ -18,10 +18,10 @@ export default {
   data: () => ({
     cuestionario: {
       tema:
-        'Exploración de frecuencias y transmisión en el espectro electromagnético ',
+        'Exploración de frecuencias y transmisión en el espectro electromagnético',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Aplicar los conceptos de asignación de frecuencias y medios de transmisión en el espectro electromagnético, identificando sus usos específicos en radiocomunicaciones, telefonía móvil, televisión y servicios futuros. ',
+        '<b> Objetivo:</b> aplicar los conceptos de asignación de frecuencias y medios de transmisión en el espectro electromagnético, identificando sus usos específicos en radiocomunicaciones, telefonía móvil, televisión y servicios futuros.',
       barajarPreguntas: true,
       preguntas: [
         {

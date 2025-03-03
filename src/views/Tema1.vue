@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
@@ -112,40 +112,22 @@
             img.mx-auto(src="@/assets/curso/temas/tema1/18.png")
           h4.mb-0.text-center Señales de telefonía y radio
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 2.] Onda electromagnética
         .fondo-color-sistema-i.p-4.p-lg-5.borde-10(data-aos="flip-up")
           figure
             img.mx-auto(src="@/assets/curso/temas/tema1/19.svg",style="max-width: 800px;",alt="La  figura  representa una onda electromagnética, destacando sus componentes principales: el campo eléctrico y el campo magnético, que son perpendiculares entre sí y a la dirección de propagación de la onda. La longitud de onda se muestra como la distancia entre dos puntos equivalentes de la onda. También se indica la frecuencia, definida como el número de oscilaciones por segundo, y la dirección e intensidad del campo.")
-    
-
-
-
-
-
-
-
-
-
+ 
 </template>
 
 <script>
 export default {
   name: 'Tema1',
-  components: {},
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

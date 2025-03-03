@@ -2,8 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -24,24 +23,15 @@
         p.mb-0 Para transmitir estas señales, se emplean medios guiados (como cables y fibra óptica) y no guiados (como el aire o el vacío), los cuales poseen características propias en cuanto a capacidad, velocidad y vulnerabilidad al ruido. Esta interferencia, o ruido, representa una distorsión que puede afectar la calidad de la señal, razón por la cual se requiere el uso de técnicas y equipos de adaptación para mejorar su recepción y minimizar pérdidas.
       .col-lg-3.col-6(data-aos="zoom-in"): img(src='@/assets/curso/temas/4.png', alt='')
 
-
-    
 </template>
 
 <script>
 export default {
-  name: 'Tema1',
+  name: 'Introduccion',
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
+
 <style lang="sass"></style>

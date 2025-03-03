@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido.overflow-hidden
+    .titulo-principal.color-acento-contenido.overflow-hidden(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Espectro electromagnético
@@ -35,7 +35,7 @@
             .col-lg-8.mb-4.mb-lg-0
               .p-4
                 h4 Infrarrojos
-                p.mt-4 Emitidos por cuerpos calientes y detectables mediante visores nocturnos; frecuencia de 1011 Hz a 1014 Hz.
+                p.mt-4 Emitidos por cuerpos calientes y detectables mediante visores nocturnos; frecuencia de 10#[sup 11] Hz a 10#[sup 14] Hz.
             .col-lg-4
               img(src='@/assets/curso/tema3/slider-3.png', style="max-width: 440px").mx-auto
 
@@ -44,7 +44,7 @@
             .col-lg-8.mb-4.mb-lg-0
               .p-4
                 h4 Luz visible
-                p.mt-4 Rango perceptible por el ojo humano, con frecuencias entre 4 * 1014 Hz a 1014 Hz.
+                p.mt-4 Rango perceptible por el ojo humano, con frecuencias entre 4 * 10#[sup 14] Hz y 7.5 * 10#[sup 14] Hz.
             .col-lg-4
               img(src='@/assets/curso/tema3/slider-4.png', style="max-width: 419px").mx-auto
           
@@ -52,7 +52,7 @@
             .col-lg-8.mb-4.mb-lg-0
               .p-4
                 h4 Luz ultravioleta
-                p.mt-4 Frecuencia entre 8 * 1014 Hz a 1017 Hz, siendo el sol la principal fuente de radiación UVA.
+                p.mt-4 Frecuencia entre 7.5 * 10#[sup 14] Hz a 3 * 10#[sup 16] Hz, siendo el sol la principal fuente de radiación UVA.
             .col-lg-4
               img(src='@/assets/curso/tema3/slider-5.png', style="max-width: 440px").mx-auto
 
@@ -61,7 +61,7 @@
             .col-lg-8.mb-4.mb-lg-0
               .p-4
                 h4 Rayos X
-                p.mt-4 Frecuencia de 1.1 * 1014 Hz a 1019 Hz, cuya exposición prolongada puede provocar cáncer.
+                p.mt-4 Frecuencia de 3 * 10#[sup 16] Hz a 3 * 10#[sup 19] Hz, cuya exposición prolongada puede provocar cáncer.
             .col-lg-4
               img(src='@/assets/curso/tema3/slider-6.png', style="max-width: 419px").mx-auto              
 
@@ -69,7 +69,7 @@
             .col-lg-8.mb-4.mb-lg-0
               .p-4
                 h4 Rayos Gamma
-                p.mt-4 Frecuencia superior a 1* 1019 Hz, generados en la estabilización nuclear de emisiones radiactivas.
+                p.mt-4 Frecuencia superior a 1 * 10#[sup 19] Hz, generados en la estabilización nuclear de emisiones radiactivas.
             .col-lg-4
               img(src='@/assets/curso/tema3/slider-7.png', style="max-width: 419px").mx-auto   
 
@@ -123,7 +123,7 @@
       .col-lg-9
         p(data-aos="fade-up") Medio de transmisión por el cual se propagan las ondas electromagnéticas que permiten los servicios de telecomunicaciones, como la radio, la televisión, el internet y la telefonía móvil, y que son supervisadas y reguladas por los gobiernos y normas de cada país. Este espectro se distribuye en las bandas UHF, VHF y HF.
 
-        .row.mb-4
+        .row.justify-content-center.mb-4
           .col-lg-4.col-md-6.mb-4(data-aos="fade-right")
             .fondo-color-sistema-i.borde-10.p-4.hov-p-1.h-100
               figure.mb-4
@@ -152,20 +152,20 @@
 
     p(data-aos="fade-up").mb-5 El cuadro nacional de atribución de bandas de frecuencias es un instrumento que organiza y establece el espectro radioeléctrico, en el que se evidencian los principales servicios de telecomunicaciones prestados en las bandas UHF, VHF y HF.
 
-    .row.mb-5
-      .col-lg-4.mb-4(data-aos="zoom-in-up")
+    .row.justify-content-center.mb-5
+      .col-md-6.col-lg-4.mb-4(data-aos="zoom-in-up")
         .custom-image-card.bg-color-2
           img.custom-image-card__image(src="@/assets/curso/tema3/5.png" alt="")
           .custom-image-card__text.p-4
             p.mb-0 #[strong Banda UHF]
             p.mb-0 En este segmento se ubican las ondas electromagnéticas que son utilizadas por las compañías de telefonía fija y móvil.
-      .col-lg-4.mb-4(data-aos="zoom-in")
+      .col-md-6.col-lg-4.mb-4(data-aos="zoom-in")
         .custom-image-card.bg-color-2
           img.custom-image-card__image(src="@/assets/curso/tema3/6.png" alt="")
           .custom-image-card__text.p-4
             p.mb-0 #[strong Banda VHF]
             p.mb-0 Rango utilizado por las compañías de telefonía móvil y terrestre, las emisoras radiales, los sistemas de radio de onda corta y los sistemas de telefonía móvil en aparatos voladores.
-      .col-lg-4.mb-4(data-aos="zoom-in-left")
+      .col-md-6.col-lg-4.mb-4(data-aos="zoom-in-left")
         .custom-image-card.bg-color-1
           img.custom-image-card__image(src="@/assets/curso/tema3/7.png" alt="")
           .custom-image-card__text.p-4
@@ -173,39 +173,36 @@
             p.mb-0 Más envolvente que la banda VHF, ya que algunas de sus emisiones residuales o fragmentos de ondas trasladadas fuera del aire terrestre pueden chocar con las ondas espaciales, lo que produce una mayor cobertura de transmisión.
 
     .bg-full-width.bg-fondo-1
-      .px-4.px-lg-5.py-lg-0
+      .px-5.pb-5
         p(data-aos="fade-up").mb-5 Las asignaciones de frecuencia permiten organizar el espectro electromagnético en Colombia, optimizando su uso para servicios como radiocomunicación, telefonía móvil y televisión análoga, y reservando espacio para futuras tecnologías.
         .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-3.mb-4
+          .col-md-6.col-lg-3.mb-4
             .tarjeta--boton.bg-color-3.p-4.text-center.h-100(data-aos="flip-up")
               img(src='@/assets/curso/tema3/8.svg', alt='', style="max-width: 90px").mx-auto.mb-4
               .bg-color-4.d-inline-block.p-2.mb-3
                 h6.text-center.mb-0 #[strong Radiocomunicación]
               p.text-center 9 kHz hasta 40 GHz
-          .col-lg-3.mb-4
+          .col-md-6.col-lg-3.mb-4
             .tarjeta--boton.bg-color-3.p-4.text-center.h-100(data-aos="flip-up")
               img(src='@/assets/curso/tema3/9.svg', alt='', style="max-width: 90px").mx-auto.mb-4
               .bg-color-4.d-inline-block.p-2.mb-3
                 h6.text-center.mb-0 #[strong Planeación]
               p.text-center 40.0 GHz hasta 1000 GHz (banda asignada para servicios futuros)
 
-          .col-lg-3.mb-4
+          .col-md-6.col-lg-3.mb-4
             .tarjeta--boton.bg-color-3.p-4.text-center.h-100(data-aos="flip-up")
               img(src='@/assets/curso/tema3/10.svg', alt='', style="max-width: 90px").mx-auto.mb-4
               .bg-color-4.d-inline-block.p-2.mb-3
                 h6.text-center.mb-0 #[strong Telefonía móvil y fija]
               p.text-center 29.7 MHz hasta 44 MHz
 
-          .col-lg-3.mb-4
+          .col-md-6.col-lg-3.mb-4
             .tarjeta--boton.bg-color-3.p-4.text-center.h-100(data-aos="flip-up")
               img(src='@/assets/curso/tema3/11.svg', alt='', style="max-width: 90px").mx-auto.mb-4
               .bg-color-4.d-inline-block.p-2.mb-3
                 h6.text-center.mb-0 #[strong Servicio de radiodifusión de la televisión análoga]
               p.text-center 54 MHz – 72 MHz, 76 MHz – 108 MHz, 174 MHz – 216 MHz
 
-        br
-        br
-        br  
 </template>
 
 <script>

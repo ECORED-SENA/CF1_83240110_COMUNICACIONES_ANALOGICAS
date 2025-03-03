@@ -1,14 +1,14 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.overflow-hidden
-    .titulo-principal.color-acento-contenido
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Medios de transmisión de las señales analógicas
 
 
-    .bg-color-5.p-4.p-md-5.mb-5
+    .bg-color-5.p-4.p-md-5.mb-5(data-aos="fade-down")
       .row.justify-content-center.align-items-center
         .col-lg-auto
           img(src='@/assets/curso/tema4/1.svg', alt='', style="max-width: 205px").mx-auto.px-4
@@ -20,32 +20,39 @@
 
     .titulo-tres: h3 Medios no guiados
 
-    p(data-aos="fade-up").mb-5 Los medios no guiados son utilizados para señales que no requieren un material físico para propagarse y se desplazan a través del aire. La transmisión se realiza mediante antenas, que pueden ser direccionales (en un solo sentido) u omnidireccionales (dispersando la señal en 360° y a grandes distancias). Estos medios son sensibles a interferencias causadas por cambios climáticos.
+    .row.align-items-center.mb-5
+      .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-left")
+        img(src="@/assets/curso/tema4/2.png", alt="", style="max-width: 300px").mx-auto
+      .col-lg(data-aos="fade-right")
+        p.mb-0 Los medios no guiados son utilizados para señales que no requieren un material físico para propagarse y se desplazan a través del aire. La transmisión se realiza mediante antenas, que pueden ser direccionales (en un solo sentido) u omnidireccionales (dispersando la señal en 360° y a grandes distancias). Estos medios son sensibles a interferencias causadas por cambios climáticos.
+
+    .titulo-tres: h3 Medios guiados
+
+    p(data-aos="fade-right") Los medios guiados emplean un soporte físico para la transmisión de señales. Son susceptibles a pérdidas de información según la distancia; para evitarlas, se utilizan amplificadores que regeneran la señal.
+    
+    p(data-aos="fade-right").mb-4 Los principales tipos de medios guiados:
 
     .row.justify-content-center.mb-5
-      .col-sm-12.col-lg-9
+      .col-lg-10(data-aos="fade-right")
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Cable coaxial")
-            .col-lg
+            .col-lg.mb-4.mb-lg-0
               p.mb-0 Compuesto por un hilo de cobre central, recubierto por una malla y elementos conductores separados por aislantes plásticos. Requiere adaptadores con conectores apropiados en los extremos y es común en redes de televisión, con una velocidad de transmisión de hasta 10 Mbps (106 #[em bits] por segundo).
             .col-lg-auto
               figure
-                img(src="@/assets/curso/tema4/3.png", alt="")
+                img(src="@/assets/curso/tema4/3.png", alt="", style="max-width: 300px").mx-auto
           .row(numero="2" titulo="Fibra óptica")
-            .col-lg
+            .col-lg.mb-4.mb-lg-0
               p.mb-0 La información se transmite en forma de pulsos de luz. Un extremo tiene un emisor de luz (LED o láser) y el otro un detector de luz. Alcanza velocidades de varios Gbps (109 bits por segundo), aunque su instalación y mantenimiento son costosos.
             .col-lg-auto
               figure
-                img(src="@/assets/curso/tema4/4.png", alt="")
+                img(src="@/assets/curso/tema4/4.png", alt="", style="max-width: 300px").mx-auto
           .row(numero="3" titulo="Par trenzado")
-            .col-lg
+            .col-lg.mb-4.mb-lg-0
               p.mb-0 Similar al cable telefónico, tiene 8 hilos y conectores RJ 45. Clasificado en categorías según el número de trenzas por unidad de longitud, donde más trenzas implican mayor velocidad de transferencia. Dos tipos principales: UTP (sin apantallamiento) y STP (con apantallamiento).
             .col-lg-auto
               figure
-                img(src="@/assets/curso/tema4/5.png", alt="")
-      .col-sm-12.col-lg-3.d-none.d-lg-block
-        img(src="@/assets/curso/tema4/2.png", alt="")
-
+                img(src="@/assets/curso/tema4/5.png", alt="", style="max-width: 300px").mx-auto
 
     .titulo-tres: h3 Adaptación de impedancias para alta frecuencia y alta potencia
 
@@ -69,7 +76,7 @@
     p(data-aos="fade-up").mb-5 Para evitar reflexiones en la carga, las impedancias deben ser completamente resistivas, lo cual facilita la emisión de señales con gran ancho de banda.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 2.
           span Clasificación de las ondas analógicas por frecuencia
@@ -125,7 +132,8 @@
                 td Extremadamente alta frecuencia
                 td Radar
 
-    p(data-aos="fade-up") El uso de altas frecuencias (bandas Ku y Ka) permite transmitir mayor cantidad de información por segundo, aunque requiere mayor potencia y equipos más robustos para evitar bloqueos y mejorar la recepción.
+    p(data-aos="fade-right") El uso de altas frecuencias (bandas Ku y Ka) permite transmitir mayor cantidad de información por segundo, aunque requiere mayor potencia y equipos más robustos para evitar bloqueos y mejorar la recepción.
+
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Señales analógicas',
-    descripcionCurso:
+    Name: 'Señales analógicas',
+    Description:
       'Las señales analógicas, originadas en fenómenos electromagnéticos, son continuas y representan ondas variables. Sus características incluyen vulnerabilidad al ruido y alta resolución. Los medios de transmisión pueden ser guiados o no guiados. El espectro electromagnético abarca desde radio hasta rayos gamma, regulado en Colombia, con la multiplexación como método para combinar múltiples canales en un solo medio.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
@@ -278,25 +278,4 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }
